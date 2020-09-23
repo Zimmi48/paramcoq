@@ -49,6 +49,7 @@ apply (f_R A A (fun _ _ => True)).
 assumption.
 Qed.
 
+Arguments length [_].
 Parametricity length.
 Definition length_rev : T := fun A l => length (rev l).
 
